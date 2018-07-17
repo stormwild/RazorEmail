@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RazorEmail.RazorLib\RazorEmail.RazorLib.csproj" />
+    <ProjectReference Include="..\RazorEmail.Lib\RazorEmail.Lib.csproj" />
+  </ItemGroup>
+
 </Project>
